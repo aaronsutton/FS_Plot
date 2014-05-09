@@ -1,0 +1,383 @@
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(dropbox:4282): Gtk-CRITICAL **: IA__gtk_widget_get_direction: assertion 'GTK_IS_WIDGET (widget)' failed
+/usr/bin/nautilus
+
+(nautilus:4389): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/ch%202%20dx.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/chapter%202.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/chapter%202%20(2).docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/chapter%202%20updated.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/Chapter%20III.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/Chapter%20III%20(2).docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.spreadsheetml.sheet: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/DATA.xlsx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation%20chapter%201.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation%20chapter%202.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/EDNOS.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/Extra%20info.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/info%20ch%202-%20etiology.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/info%20to%20use%20later-%20dissertation.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/lit%20review.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/lit%20review%20chapter%202.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/most%20recent%20chapter%202.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/questions%20for%20interview.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/statement%20of%20the%20problem.docx: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation/ch4-RESULTS.docx: Unrecognized image file format
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't read xref table
+Syntax Error: Couldn't find trailer dictionary
+Syntax Error: Couldn't read xref table
+Error loading document: PDF document is damaged
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/pdf: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation/chapter4.pdf: Unrecognized image file format
+error: Could not find thumbnail in zip file
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/vnd.openxmlformats-officedocument.wordprocessingml.document: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation/Chapter%205.docx: Unrecognized image file format
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 rtxptmbi
+mktexpk: Running gsftopk rtxptmbi 657
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmbi.657pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 rtxptmri
+mktexpk: Running gsftopk rtxptmri 600
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmri.600pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 rtxptmri
+mktexpk: Running gsftopk rtxptmri 720
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmri.720pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 rtxptmr
+mktexpk: Running gsftopk rtxptmr 480
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmr.480pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 rtxptmr
+mktexpk: Running gsftopk rtxptmr 600
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmr.600pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 rtxptmri
+mktexpk: Running gsftopk rtxptmri 657
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmri.657pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 rtxptmb
+mktexpk: Running gsftopk rtxptmb 720
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmb.720pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 rtxptmr
+mktexpk: Running gsftopk rtxptmr 720
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmr.720pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 rtxptmb
+mktexpk: Running gsftopk rtxptmb 657
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmb.657pk: successfully generated.
+
+kpathsea: Running mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 rtxptmr
+mktexpk: Running gsftopk rtxptmr 657
+gsftopk(k) version 1.19.2/910
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [11] [12] [14] [15] [16] [17] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109]
+[110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122]
+[123] [124] [125] [126] [130] [131] [132] [133] [134] [135] [136] [137] [138]
+[139] [140] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [159]
+[161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
+[174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186]
+[187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212]
+[213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223] [224] [225]
+[226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+[239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250] [251]
+[252] [253] [254] [255]
+mktexpk: /home/asutton/.texlive/texmf-var/fonts/pk/modeless/public/txfonts/rtxptmr.657pk: successfully generated.
+error: The metadata does not have a thumbnail property
+
+(nautilus:4389): GnomeDesktop-WARNING **: Unable to create loader for mime type application/msword: Unrecognized image file format
+
+(nautilus:4389): GnomeDesktop-WARNING **: Error creating thumbnail for file:///home/asutton/Dropbox/Kristen/dissertation/proposal.doc: Unrecognized image file format
+/usr/bin/nautilus
+
+(nautilus:5940): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+/usr/bin/nautilus
+
+(nautilus:8466): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+/usr/bin/nautilus
+
+(nautilus:8618): Gtk-WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
