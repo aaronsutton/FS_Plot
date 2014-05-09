@@ -8,6 +8,7 @@ from mayavi import mlab
 from tvtk.api import tvtk, write_data
 from scipy.interpolate import griddata
 from pyhull.voronoi import VoronoiTess
+from return_data import return_data
 #import gts
 #from pyhull.delaunay import DelaunayTri
 #import mayavi
@@ -19,19 +20,21 @@ assert itertools
 assert tvtk
 #assert pyvtk
 
-filename = 'YbSO25072013.bxsf.band-39'
+filename = 'YbSO25072013.bxsf.band-40'
 #Try maya plotting stuff
-f_plot = open('data_' + filename + '.dat', 'r')
-plotData = np.loadtxt(f_plot)
-plotX = plotData[:, 0]
-plotY = plotData[:, 1]
-plotZ = plotData[:, 2]
-Energy = plotData[:, 3]
-R = plotData[:, 0:3]
-pts = 30j
-X, Y, Z = np.mgrid[min(plotX):max(plotX):pts, min(plotY):max(plotY):pts, min(plotZ):max(plotZ):pts]
-F = griddata(R, Energy, (X, Y, Z), method='linear')
-f_plot.close()
+#f_plot = open('data_' + filename + '.dat', 'r')
+#plotData = np.loadtxt(f_plot)
+#plotX = plotData[:, 0]
+#plotY = plotData[:, 1]
+#plotZ = plotData[:, 2]
+#Energy = plotData[:, 3]
+#R = plotData[:, 0:3]
+#pts = 30j
+#X, Y, Z = np.mgrid[min(plotX):max(plotX):pts, min(plotY):max(plotY):pts, min(plotZ):max(plotZ):pts]
+#F = griddata(R, Energy, (X, Y, Z), method='linear')
+#f_plot.close()
+X, Y, Z, F = return_data(filename)
+
 NN_plot = open('NNgen.dat', 'r')
 points = np.loadtxt(NN_plot)
 #NN_plot.close()
@@ -93,11 +96,25 @@ bzfile.close()
 FS = mlab.contour3d(Xnew, Ynew, Znew, F, contours=[0.765467])
 bzpoints = mlab.points3d(bzfinalx, bzfinaly, bzfinalz, color=(0, 0, 0), scale_factor=0.001)
 
+# Plot a second band?
+plot_band2 = 0
+filename2 = 'YbSO25072013.bxsf.band-40'
+
+if plot_band2:
+    X, Y, Z, F = return_data(filename2)
+    FS2 = mlab.contour3d(X, Y, Z, F, contours=[0.765467])
+
+# Save plots - various options
 #mlab.savefig(filename='test.wrl')
 #savefig('FS' + filename + '.png')
 #delmesh = mlab.pipeline.delaunay3d(bzpoints)
 #bzpoints.remove
 #delsurface = mlab.pipeline.surface(delmesh, opacity=0.5)
+
+
+
+
+# This was a test of using the gts package. It sort of works, but isn't necessary
 '''isotest = gts.isosurface(F,0.765467)
 x,y,z,t = gts.get_coords_and_face_indices(isotest,True)
 mlab.triangular_mesh(x,y,z,t)
