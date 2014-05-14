@@ -20,7 +20,7 @@ assert itertools
 assert tvtk
 #assert pyvtk
 
-filename = 'YbSO25072013.bxsf.band-40'
+filename = 'YbSO25072013.bxsf.band-39'
 #Try maya plotting stuff
 #f_plot = open('data_' + filename + '.dat', 'r')
 #plotData = np.loadtxt(f_plot)
@@ -33,7 +33,7 @@ filename = 'YbSO25072013.bxsf.band-40'
 #X, Y, Z = np.mgrid[min(plotX):max(plotX):pts, min(plotY):max(plotY):pts, min(plotZ):max(plotZ):pts]
 #F = griddata(R, Energy, (X, Y, Z), method='linear')
 #f_plot.close()
-X, Y, Z, F = return_data(filename)
+X, Y, Z, F, z_offset = return_data(filename)
 
 NN_plot = open('NNgen.dat', 'r')
 points = np.loadtxt(NN_plot)
@@ -97,6 +97,12 @@ FS = mlab.contour3d(Xnew, Ynew, Znew, F, contours=[0.765467])
 bzpoints = mlab.points3d(bzfinalx, bzfinaly, bzfinalz, color=(0, 0, 0), scale_factor=0.001)
 
 # Plot a second band?
+z_shift = 1
+if z_shift:
+    z_shift_val = Z.max() - Z.min()
+    Z = [x + z_shift_val for x in Z]
+    FS_Z = mlab.contour3d(X, Y, Z, F, contours=[0.765467])
+
 plot_band2 = 0
 filename2 = 'YbSO25072013.bxsf.band-40'
 
