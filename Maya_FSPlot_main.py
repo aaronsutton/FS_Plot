@@ -5,8 +5,8 @@ import itertools
 #import matplotlib.figure as fig
 from mpl_toolkits.mplot3d import Axes3D
 from mayavi import mlab
-from tvtk.api import tvtk, write_data
-from scipy.interpolate import griddata
+# from tvtk.api import tvtk, write_data
+# from scipy.interpolate import griddata
 from pyhull.voronoi import VoronoiTess
 from return_data import return_data
 #import gts
@@ -17,7 +17,7 @@ from return_data import return_data
 assert plt
 assert Axes3D
 assert itertools
-assert tvtk
+# assert tvtk
 #assert pyvtk
 
 filename = 'YbSO25072013.bxsf.band-39'
@@ -33,7 +33,7 @@ filename = 'YbSO25072013.bxsf.band-39'
 #X, Y, Z = np.mgrid[min(plotX):max(plotX):pts, min(plotY):max(plotY):pts, min(plotZ):max(plotZ):pts]
 #F = griddata(R, Energy, (X, Y, Z), method='linear')
 #f_plot.close()
-X, Y, Z, F, z_offset = return_data(filename)
+X, Y, Z, F = return_data(filename)
 
 NN_plot = open('NNgen.dat', 'r')
 points = np.loadtxt(NN_plot)
@@ -100,8 +100,13 @@ bzpoints = mlab.points3d(bzfinalx, bzfinaly, bzfinalz, color=(0, 0, 0), scale_fa
 z_shift = 1
 if z_shift:
     z_shift_val = Z.max() - Z.min()
-    Z = [x + z_shift_val for x in Z]
-    FS_Z = mlab.contour3d(X, Y, Z, F, contours=[0.765467])
+    Z_z = [x + z_shift_val for x in Z]
+    FS_Z = mlab.contour3d(X, Y, Z_z, F, contours=[0.765467])
+    xz_shift_val = 2*X.max()
+    z_shift_val = Z.max()
+    X_xz = [x + xz_shift_val - 0.02 for x in X]
+    Z_xz = [x + z_shift_val for x in Z]
+    FS_XZ = mlab.contour3d(X_xz, Y, Z_xz, F, contours=[0.765467])
 
 plot_band2 = 0
 filename2 = 'YbSO25072013.bxsf.band-40'
