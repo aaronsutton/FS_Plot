@@ -21,9 +21,8 @@ assert itertools
 # assert pyvtk
 
 filename = 'YbSO25072013.bxsf.band-39'
-X, Y, Z, F = return_data(filename)
-
 write_NN = 0
+
 E_F, G_1, G_2, G_3 = genNN(filename, write_NN)
 
 NN_plot = open('NNgen.dat', 'r')
@@ -71,6 +70,9 @@ for (p1, p2), vertind in ridges:
         # Plot the outline
         mlab.plot3d(bzplotxa, bzplotya, bzplotza, color=(0, 0, 0), line_width=0.001, tube_radius=0.001)
 bzlines.close()
+
+X, Y, Z, R, F = return_data(filename, G_1, G_2, G_3)
+
 scalefactor = max(bzfinalz)/Z.max()
 Xnew = X.copy()
 Ynew = Y.copy()
@@ -85,29 +87,28 @@ for i in range(len(bzfinalx)):
 bzfile.close()
 
 E_F_shift = 0.018
-translate = [1, 0, 1]
-shift = translate[0] * G_1 + translate[1] * G_2 + translate[2] * G_3
-
 
 FS = mlab.contour3d(Xnew, Ynew, Znew, F, contours=[E_F + E_F_shift])
 bzpoints = mlab.points3d(bzfinalx, bzfinaly, bzfinalz, color=(0, 0, 0), scale_factor=0.001)
 
 # Plot a second band?
-z_shift = 1
+z_shift = 0
 if z_shift:
+    translate = [1, 1, -1]
+    shift = translate[0]*np.array(G_1) + translate[1]*np.array(G_2) + translate[2]*np.array(G_3)
     X_shift = [x + shift[0] for x in X]
     Y_shift = [y + shift[1] for y in Y]
     Z_shift = [z + shift[2] for z in Z]
     FS_shift = mlab.contour3d(X_shift, Y_shift, Z_shift, F, contours=[E_F + E_F_shift])
 
-  #  z_shift_val = Z.max() - Z.min()
-  #  Z_z = [x + z_shift_val for x in Z]
-  #  FS_Z = mlab.contour3d(X, Y, Z_z, F, contours=[E_F + E_F_shift])
-  #  xz_shift_val = 2*X.max()
-  #  z_shift_val = Z.max()
-  #  X_xz = [x + xz_shift_val - 0.02 for x in X]
-  #  Z_xz = [x + z_shift_val for x in Z]
-  #  FS_XZ = mlab.contour3d(X_xz, Y, Z_xz, F, contours=[E_F + E_F_shift])
+    #  z_shift_val = Z.max() - Z.min()
+    #  Z_z = [x + z_shift_val for x in Z]
+    #  FS_Z = mlab.contour3d(X, Y, Z_z, F, contours=[E_F + E_F_shift])
+    #  xz_shift_val = 2*X.max()
+    #  z_shift_val = Z.max()
+    #  X_xz = [x + xz_shift_val - 0.02 for x in X]
+    #  Z_xz = [x + z_shift_val for x in Z]
+    #  FS_XZ = mlab.contour3d(X_xz, Y, Z_xz, F, contours=[E_F + E_F_shift])
 
 plot_band2 = 0
 filename2 = 'YbSO25072013.bxsf.band-40'
